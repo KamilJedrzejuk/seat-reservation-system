@@ -49,12 +49,12 @@ dependencies {
     implementation('org.springframework.boot:spring-boot-starter-web')
     implementation("io.vavr:vavr:${versions.vavrVersion}")
 
-
-	
+    
 
 
     testImplementation("org.spockframework:spock-core:${versions.spockVersion}")
     testImplementation("org.spockframework:spock-spring:${versions.spockVersion}")
+    testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
 dependencyManagement {
@@ -63,8 +63,7 @@ dependencyManagement {
 	}
 }
 
-
-
 wrapper {
     gradleVersion = '5.4.1'
+    distributionType = Wrapper.DistributionType.ALL
 }
