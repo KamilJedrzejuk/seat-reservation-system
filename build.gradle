@@ -47,14 +47,14 @@ dependencies {
     compileOnly('org.projectlombok:lombok')
     
     implementation('org.springframework.boot:spring-boot-starter-web')
-    implementation('io.vavr:vavr:${versions.vavrVersion}')
+    implementation("io.vavr:vavr:${versions.vavrVersion}")
 
 
 	
 
 
-    testImplementation('org.spockframework:spock-core:${versions.spockSpring}')
-    testImplementation('org.spockframework:spock-spring:${versions.spockSpring}')
+    testImplementation("org.spockframework:spock-core:${versions.spockVersion}")
+    testImplementation("org.spockframework:spock-spring:${versions.spockVersion}")
 }
 
 dependencyManagement {
