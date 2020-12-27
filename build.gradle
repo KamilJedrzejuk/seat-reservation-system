@@ -33,7 +33,7 @@ project.ext.versions = [
         lombokVersion                       : '1.18.2',
         swaggerVersion                      : '2.7.0',
         spockVersion                        : '1.2-groovy-2.5',
-        vavrVersion                         : '0.10.0'
+        vavrVersion                         : '0.10.3'
 ]
 
 repositories {
